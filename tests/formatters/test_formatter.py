@@ -3,7 +3,7 @@ from decimal import Decimal
 import pytest
 from io import StringIO
 import sys
-from evaluator.formatters.performance import PerformanceFormatter
+from evaluator.formatters.formatter import PerformanceFormatter
 from evaluator.models.performance import Performance
 from evaluator.models.session_stats import SessionStats
 from evaluator.models.position_session_stats import PositionSessionStats

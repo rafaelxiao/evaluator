@@ -1,7 +1,7 @@
 """Tests for PerformanceEvaluator."""
 from decimal import Decimal
 import pytest
-from evaluator.performance_evaluator import PerformanceEvaluator
+from evaluator import PerformanceEvaluator
 from evaluator.models.session_stats import SessionStats
 from evaluator.models.position_session_stats import PositionSessionStats
 from evaluator.models.performance import Performance
